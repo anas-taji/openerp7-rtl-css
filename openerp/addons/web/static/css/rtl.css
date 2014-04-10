@@ -1,0 +1,395 @@
+body.rtl{direction:rtl}
+/**************
+* By ZEC-CS, 2013
+* Tested with openerp v7
+**************/
+.rtl .openerp .oe_left {float: right;margin:0px 0px 0px 8px}
+.rtl .openerp th, .rtl .openerp td {text-align: right;}
+.rtl .openerp .oe_leftbar {
+border-left: 1px solid #AFAFB6;
+border-right: 0px solid #AFAFB6;
+}
+.rtl .openerp .oe_dropdown_menu{
+right:0px;
+}
+.rtl .openerp .oe_dropdown_menu > li > a {
+width:115px;
+}
+/*--------------------------Form View------------------------------------*/
+.rtl .openerp .oe_form td.oe_form_group_cell_label {
+border-right: 0px solid #dddddd;
+border-left: 1px solid #dddddd;
+padding: 0px 2px;
+}
+.rtl .openerp .oe_form td.oe_form_group_cell + .oe_form_group_cell {
+    padding: 0 5px 0 0;
+}
+.rtl .openerp .oe_form .oe_input_icon {
+	margin-right: 3px;
+}
+/*---------------select-----------------*/
+.rtl .openerp .oe_form_field_many2one .oe_m2o_cm_button {
+    float: left;
+}
+/*--------------------------left menu------------------------------------*/
+.rtl .openerp .oe_secondary_submenu .oe_secondary_submenu li {
+    margin-right: 20px;
+	margin-left: 0px;
+}
+.rtl .openerp .oe_secondary_submenu .oe_menu_toggler:before {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+.rtl .openerp .oe_secondary_submenu .oe_menu_opened:before {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*--------------------------Top menu------------------------------------*/
+.rtl .openerp .oe_user_menu li {
+    float: right;
+}
+.rtl .openerp .oe_dropdown_menu {
+    text-align: right;
+}
+
+/*--------------------------Dialog------------------------------------*/
+.rtl .ui-dialog .ui-dialog-title {
+    float: right;
+	padding: 3px 10px;
+}
+/*--------------------------------tabs--------------------------------*/
+.rtl .openerp .oe_notebook > li {
+    float: right;
+}
+
+/*--------------------------------Paging--------------------------------*/
+.rtl .openerp .oe_pager_group li {
+    float: right;
+}
+/*-------------------------------Search------------------------*/
+.rtl .openerp .oe_searchview {
+	float: left;
+}
+.rtl .openerp .oe_searchview .oe_searchview_facets {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+.rtl .openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet{
+	direction:ltr
+}
+/*------------------------Kanban View--------------------*/
+.rtl .openerp .oe_kanban_view .oe_kanban_group_title_vertical{
+direction:ltr
+}
+.rtl .openerp .oe_kanban_view .oe_fold_column .oe_kanban_group_length {
+position: static;
+float: left;
+}
+.rtl .openerp .oe_kanban_view .oe_dropdown_kanban .oe_dropdown_menu {
+    right: 0;
+    left:auto;
+}
+/*------------------------Kanban View--------------------*/
+.rtl .oe_view_manager_view_graph{
+direction:ltr
+}
+/*--------------------application header-------------------*/
+.rtl .openerp .oe_view_manager table.oe_view_manager_header h2 {
+    float: right;
+}
+/*----------------------------Messageing--------------------------*/
+.rtl .openerp .oe_mail .oe_attachment img {
+left:auto
+}
+/*----------------------------followers--------------------------*/
+.rtl .openerp .oe_followers .oe_remove_follower {
+right:auto;
+left:0px;
+}
+.rtl .openerp .oe_followers .oe_invite {
+    float: left;
+}
+.rtl .oe_view_manager_view_gantt{
+direction:ltr;
+}
+/*----------------------------Stages--------------------------*/
+.rtl .openerp .oe_form header ul {
+    float: left;
+}
+.rtl .openerp ul.oe_form_status li:last-child, .rtl .openerp ul.oe_form_status_clickable li:last-child 
+.rtl .openerp ul.oe_form_status li:first-child .label, .rtl .openerp ul.oe_form_status_clickable li:first-child .label
+{
+    border: 0px solid #CACACA;
+}
+.rtl .openerp ul.oe_form_status li .label, .rtl .openerp ul.oe_form_status_clickable li .label {
+	 padding: 7px 24px 7px 7px;
+}
+
+.rtl .openerp ul.oe_form_status li .arrow, .rtl .openerp ul.oe_form_status_clickable li .arrow {
+    margin-left: -3px;
+}
+.rtl .openerp ul.oe_form_status li .arrow span, .rtl .openerp ul.oe_form_status_clickable li .arrow span{
+ margin: 3px -12px 0 0;
+    transform: rotate(230deg);
+	background: -moz-linear-gradient(135deg, #FCFCFC, #DEDEDE) repeat scroll 0 0 transparent;
+}
+.rtl .openerp ul.oe_form_status li.oe_active .arrow span, .rtl .openerp ul.oe_form_status_clickable li.oe_active .arrow span {
+    background: -moz-linear-gradient(135deg, #729FCF, #3465A4) repeat scroll 0 0 transparent;
+}
+.point-of-sale #leftpane {
+   -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	right: 440;
+	width: 440px;
+	top: 0px;	
+	bottom: 0;
+	border-right: solid 1px #CECBCB;
+	background-color: white;
+}
+.point-of-sale #leftpane footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #F0EEEE;
+    white-space: nowrap;
+}
+.point-of-sale #rightpane {
+   position: absolute;
+	top: 0;	
+	bottom: 0;
+	/*right: 440px!important;*/
+	right: 0!important;*
+	vertical-align: top;
+    
+    direction:ltr;
+}
+/* .point-of-sale #branding { */
+/* 	position: absolute; */
+/* 	display: table-cell; */
+/* 	right: 0; */
+/* 	top: 0; */
+/* 	width: 439px; */
+/* 	height: 100%; */
+/* 	margin: 0; */
+/* 	padding: 0; */
+/* 	border-right: 1px solid #373737; */
+/* 	text-align: left; */
+/* 	line-height: 100%; */
+/* 	vertical-align: middle; */
+/* } */
+/* .point-of-sale #rightheader { */
+/* 	position: absolute; */
+/* 	right: 449px!important; */
+/* 	left: 0!important; */
+/* 	top: 0; */
+/* 	height: 100%; */
+/* } */
+/* .point-of-sale #branding img { */
+/* 	height: 32px; */
+/* 	width: 116px; */
+/* 	vertical-align: middle; */
+/* 	float: right; */
+/* } */
+/* .point-of-sale #branding .username { */
+/* 	float: left!important; */
+/* 	color: #DDD; */
+/* 	font-size: 16px; */
+/* 	margin-right: 32px; */
+/* 	margin-top: 10px; */
+/* 	font-style: italic; */
+/* } */
+.point-of-sale div#order-selector {
+	display: inline;
+	float: left;
+}
+.point-of-sale .oe_pos_synch-notification {
+	float: right;
+	color: rgba(255,255,255,0.4);
+	padding: 8px;
+	line-height: 16px;
+	font-size: 16px;
+	vertical-align: middle;
+	font-style: italic;
+	cursor: pointer;
+}
+.point-of-sale .pos-sale-ticket {
+	text-align: right!important;
+}
+.point-of-sale #rightheader .header-button{
+	float: right;
+}
+.pos-step-container td:nth-child(2){
+	text-align:left;
+}
+.pos-step-container td:nth-child(3){
+	text-align:left;
+}
+.openerp .oe_view_manager table.oe_view_manager_header .oe_button_group{
+	float:left;
+}
+.openerp .oe_view_manager table.oe_view_manager_header .oe_button_group li{
+	float:right;
+}
+.openerp .oe_right{
+	float:left;
+	direction: ltr;
+}
+.openerp ul.oe_form_status li, .openerp ul.oe_form_status_clickable li{
+	padding-right: 10px;
+	margin: 0 -5px 0 0;
+}
+.openerp ul.oe_form_status li .arrow, .openerp ul.oe_form_status_clickable li .arrow{
+	margin-left: -15px!important;	
+}
+.openerp ul.oe_form_status li:first-child .label, .openerp ul.oe_form_status_clickable li:first-child .label{
+	border-right: 1px solid #cacaca;
+	border-left: none;
+}
+.openerp .oe_menu{
+	float: right;
+}
+.openerp .oe_systray{
+	float: left;
+}
+.openerp .oe_user_menu{
+	float: left;
+}
+.openerp .oe_menu > li{
+	float: right;
+}			
+.openerp .oe_title{
+	float: right;
+}
+.openerp .oe_button_box{
+	text-align: left;
+}
+.openerp .oe_right{	
+	direction: rtl;
+}
+.point-of-sale .mode-button, .point-of-sale #numpad-delete, .point-of-sale #numpad-minus{
+	padding: 0px!important;
+}
+.rtl2{
+	text-align:left!important;
+}
+.openerp .oe_secondary_submenu li a{
+	padding: 2px 12px 2px 0px;	
+}
+.openerp .oe_searchview .oe_searchview_drawer{
+	text-align: right;
+}
+.point-of-sale .product .product-img img{
+	margin-top: 10px;
+}
+.point-of-sale .product .price-tag{
+	right: 30px;
+	font-size: 12px;	
+}
+.point-of-sale .product .product-name{
+	text-align: center;
+	font-size: 12px;	
+}/*
+.oe_form_group_cell{
+	float: left;
+	width: 40%;
+}*/
+.oe_group_right{
+	float: right;
+}
+.oe-treeview-first span{
+	margin-right: 16px;
+}
+.openerp .oe-treeview-table .treeview-tr.oe-treeview-first{
+	background: transparent url(/web/static/src/img/Expand_rtl.png) 0 50% no-repeat;
+}
+
+.point-of-sale #paypad 
+{
+	float:left; 
+    padding: 8px 4px 8px 8px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+} 
+
+.point-of-sale #numpad {
+	direction:ltr;
+    padding: 8px 8px 8px 4px;
+    display: inline-block;
+    text-align: center;
+}
+.point-of-sale #topheader {
+   direction:ltr;
+   
+}
+.point-of-sale .screen .layout-table {
+    border:none;
+    width:100%;
+    height:100%;
+    direction:ltr;
+}
+
+.point-of-sale .screen .layout-table th, .screen .layout-table td
+{
+	text-align:left !important;
+}
+
+.point-of-sale .pos-actionbar-button-list{
+    float:left;
+    direction:ltr;
+}
+
+.point-of-sale .pos-actionbar
+{
+	direction:ltr;
+}
+/*pos-payment-container*/
+
+
+.point-of-sale ul, .point-of-sale ol
+{
+	text-align:left;
+}
+.point-of-sale .pos-payment-container 
+{
+	direction:rtl;
+}
+.point-of-sale .pos-sale-ticket
+{
+	direction:rtl;
+}
+.point-of-sale .pos-payment-container .left-block
+{
+	text-align:right;
+}
+.point-of-sale .pos-payment-container .right-block
+{
+	text-align:left;
+}
+
+.point-of-sale .orderline .product-name{
+	float:right;
+	text-align:right;
+}
+
+.point-of-sale .orderline .price{
+	float: inherit !important;
+}
+
+.point-of-sale .orderline .info-list{
+	text-align:right;
+}
+
+.point-of-sale .order-container .order-scroller{
+	float: left;
+}
+.point-of-sale .searchbox input{
+	text-align: right;
+}
+
