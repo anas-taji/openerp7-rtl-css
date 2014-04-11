@@ -16,7 +16,8 @@ How it works?
 
 To Do
 =====
-
+  1. Convert this patch to a module
+  2. Complete the CSS
 
 Contact me **Anas Taji** <anastaji@yahoo.com> 
 
